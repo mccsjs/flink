@@ -3,7 +3,7 @@
 # 数据源配置
 source:
   # 友情链接数据源URL
-  url: "https://www.xrbk.cn/links.json"
+  url: "https://seln.cn/friend.json"
   # 数据源请求头
   headers:
     Accept: "application/json"
@@ -61,3 +61,4 @@ timezone:
   # 时区名称
 
   name: "Asia/Shanghai" 
+
