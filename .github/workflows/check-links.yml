@@ -3,7 +3,7 @@ name: 检测友情链接状态
 on:
   schedule:
     # 每6小时运行一次
-    - cron: '*/15 * * * *'
+    - cron: '0 */12 * * *'
   workflow_dispatch: # 允许手动触发
   push:
     branches: [ main, master ]
